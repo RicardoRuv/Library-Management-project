@@ -37,6 +37,7 @@ Ensure that the necessary validations are implemented, such as checking if a boo
     }
     public void returnBook(Book book, Borrower person){
         addBook(book);
+
         borrowers.remove(person,book);
     }
     public static void main(String[]args){
